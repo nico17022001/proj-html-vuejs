@@ -16,7 +16,7 @@ export default {
       <div id="meet-container">MEET YOUR NEW BARBER</div>
     </div>
     <!-- CONTENITORE SVG PER SFONDO -->
-    <div id="svg-container">SVG</div>
+    <div id="svg-container"><svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#ffffff;padding:0;"><path d="M0 100 L50 2 L100 100 Z"></path></svg></div>
   </div>
 </template>
 
@@ -51,7 +51,6 @@ export default {
   }
 
 #svg-container{
-  background-color: white;
   height: 100px;
   width: 100%;
 }
