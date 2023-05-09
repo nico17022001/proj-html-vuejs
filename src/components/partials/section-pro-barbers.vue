@@ -12,7 +12,7 @@ export default {
     <div id="container">
       <!-- ELEMENTI SEZIONE -->
       <div id="award-container">AWARD WINNING</div>
-      <div id="pro-container">Pro barbers</div>
+      <div id="pro-container"><h1>Pro Barbers</h1></div>
       <div id="meet-container">MEET YOUR NEW BARBER</div>
     </div>
     <!-- CONTENITORE SVG PER SFONDO -->
@@ -23,25 +23,31 @@ export default {
 <style lang="scss" scoped>
   #main-wrapper{
     height: 500px;
-    background-color: aqua;
+    background-image: url(../../assets/img/img-main/marlborobg.jpg);
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
   }#container{
     height: 100%;
     width: 650px;
-    background-color: blanchedalmond;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }#award-container{
-    background-color: coral;
+    color: #be9359;
+    font-size: x-large;
   }#pro-container{
-    background-color: cadetblue;
+    color: #B0B0B0;
+    font-size: xxx-large;
   }#meet-container{
-    background-color: brown;
+    color: #be9359;
+    border: solid 2px #be9359;
+    padding: 15px 50px;
+    font-size: x-large;
+    margin-top: 30px;
   }
 
 #svg-container{

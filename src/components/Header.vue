@@ -24,9 +24,12 @@ export default {
 
 <style lang="scss" scoped>
   #main-wrapper{
-    background-color: black;
+    background-color: #000;
     padding:0px 150px;
     height: 96px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
   }#header-info-container{
     display: flex ;
     justify-content: space-between;
@@ -47,6 +50,7 @@ export default {
     color: white;
   }i{
     font-size: x-large;
+    cursor: pointer;
   }#menu{
     color: #be9359;
   }
