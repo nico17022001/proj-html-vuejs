@@ -57,7 +57,9 @@ export default {
     </div>
 
     <!-- CONTENITORE SVG -->
-    <div id="svg-container">SVG</div>
+    <div id="svg-container">
+      <svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:black;padding:0;"><path d="M0 100 L50 2 L100 100 Z"></path></svg>
+    </div>
   </div>
 </template>
 
@@ -112,17 +114,18 @@ export default {
   #read-container{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px 0px;
   }#read-about{
     border: solid 2px #be9359;
     color: #be9359;
     display: flex;
     align-items: center;
     padding: 20px 50px;
+    margin-bottom: 90px;
   }
 
   #svg-container{
     height: 100px;
-    background-color: chartreuse;
+    width: 100%;
   }
 </style>
