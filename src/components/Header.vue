@@ -11,12 +11,12 @@ export default {
     <!-- CONTENITORE INFO  -->
     <div id="header-info-container">
       <!-- LOGO -->
-      <div id="logo-box">Logo</div>
+      <div id="logo-box"><img src="../assets/img/img-header/logo.png" alt=""></div>
       <!-- BOTTONI HEADER A DESTRA  -->
       <div id="buttons-container">
         <!-- CARRELLO -->
-        <div id="cart">Carrello</div>
-        <div id="menu">Menu a tendina</div>
+        <div id="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div id="menu"><i class="fa-solid fa-bars"></i></div>
       </div>
     </div>
   </div>
@@ -29,19 +29,25 @@ export default {
     height: 96px;
   }#header-info-container{
     display: flex ;
-    background-color: bisque;
     justify-content: space-between;
     height: 100%;
   }#logo-box{
-    color: white;
-    background-color: aquamarine;
-  }#buttons-container{
-    color: white;
-    background-color: rgb(36, 27, 111);
+    padding: 10px;
+    width: 210px;
+  }img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #buttons-container{
     display: flex;
+    align-items: center;
   }#cart{
-    background-color: yellow;
+    margin-right: 20px;
+    color: white;
+  }i{
+    font-size: x-large;
   }#menu{
-    background: yellow;
+    color: #be9359;
   }
 </style>
