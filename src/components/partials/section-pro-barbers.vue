@@ -16,7 +16,7 @@ export default {
       <div id="meet-container">MEET YOUR NEW BARBER</div>
     </div>
     <!-- CONTENITORE SVG PER SFONDO -->
-    <div id="svg-container"></div>
+    <div id="svg-container">SVG</div>
   </div>
 </template>
 
