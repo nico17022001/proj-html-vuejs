@@ -12,4 +12,7 @@
 
 - Imposto tutta la struttura base del sito iniziando ad inserire alcuni riferimenti per il lavoro 
 
+- Inizo a lavorare ogni elemento della struttura singolarmente fino a terminarlo per poi passare a quello successivo 
+
+
 
