@@ -10,10 +10,10 @@ export default {
     <!-- CONTENITORE DEL PRIMO TESTO  -->
     <div id="text-container">
       <div id="mens-container">
-        <span>MEANS GROOMING</span>
+        <span>MENS GROOMING</span>
       </div>
       <div id="service-container">
-        <h3>SERVICISE</h3>
+        <h2>Services</h2>
       </div>
     </div>
 
@@ -21,21 +21,33 @@ export default {
     <div id="service-box">
       <!-- CARD -->
       <div class="card">
-        <div class="card-svg">SVG</div>
-        <div class="card-title">Titolo card</div>
-        <div class="card-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus </div>
+        <div class="card-svg"><img src="../../assets/img/img-main/macchinetta.png" alt=""></div>
+        <div class="card-title"><strong>Trim & Cut</strong></div>
+        <div class="card-txt">
+          <span>
+            Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculously good looking.
+          </span>
+        </div>
       </div>
       <!-- CARD -->
       <div class="card">
-        <div class="card-svg">SVG</div>
-        <div class="card-title">Titolo card</div>
-        <div class="card-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus </div>
+        <div class="card-svg"><img src="../../assets/img/img-main/prodotto.png" alt=""></div>
+        <div class="card-title"><strong>Wash & Dry</strong></div>
+        <div class="card-txt">
+          <span>
+            Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.
+          </span>
+        </div>
       </div>
       <!-- CARD -->
       <div class="card">
-        <div class="card-svg">SVG</div>
-        <div class="card-title">Titolo card</div>
-        <div class="card-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus </div>
+        <div class="card-svg"><img src="../../assets/img/img-main/rasoio.png" alt=""></div>
+        <div class="card-title"><strong>Beard Tidy</strong></div>
+        <div class="card-txt">
+          <span>
+            Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.
+          </span>
+        </div>
       </div>
     </div>
     
@@ -51,30 +63,30 @@ export default {
 
 <style lang="scss" scoped>
   #main-wrapper{
-    height: 500px;
-    background-color:blueviolet ;
+    background-color: white;
   }#text-container{
-    background-color: blanchedalmond;
     height: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
   }#mens-container{
-    background-color: cadetblue;
+    color: #be9359;
+    font-size: large;
   }#service-container{
-    background-color: chocolate;
+    font-size: xxx-large;
+    color: #b0b0b0;
   }
 
   #service-box{
-    height: 200px;
     width: 100%;
-    background-color: yellow ;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 200px;
+    margin-top: 70px;
   }.card{
     width: calc(100% / 3);
     height: 100%;
@@ -82,18 +94,31 @@ export default {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }.card-svg img{
+    width: 85px;
+    height: 130px;
+  }.card-title{
+    color: #be9359;
+    font-size: xx-large;
+    margin-top: 25px;
+  }.card-txt{
+    color: #b0b0b0;
+    text-align: center;
+    font-size: x-large;
+    padding: 0px 51px;
+    margin-top: 20px;
   }
 
   #read-container{
-    height: 100px;
-    background-color: burlywood;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
   }#read-about{
-    height: 100%;
-    background-color: aqua;
+    border: solid 2px #be9359;
+    color: #be9359;
     display: flex;
     align-items: center;
+    padding: 20px 50px;
   }
 
   #svg-container{
