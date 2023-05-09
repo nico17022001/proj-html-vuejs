@@ -15,6 +15,9 @@ export default {
 </script>
 
 <template>
+  <Header/>
+  <Main/>
+  <Footer/>
 </template>
 
 <style lang="scss">
