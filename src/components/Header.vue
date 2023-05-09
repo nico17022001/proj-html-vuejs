@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
   #main-wrapper{
     background-color: black;
-    padding:0px 60px;
+    padding:0px 150px;
     height: 96px;
   }#header-info-container{
     display: flex ;
