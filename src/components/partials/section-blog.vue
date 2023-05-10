@@ -6,48 +6,48 @@ name:'blog'
 <template>
   <!-- CONTENITORE SVG -->
   <div id="main-wrapper">
-    <div id="svg">SVG</div>
+    <div id="svg"><svg class="fusion-big-triangle-candy" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#ffffff;padding:0;"><path d="M0 100 L50 2 L100 100 Z"></path></svg></div>
 
     <!-- CONTENITORE DEL TITOLO DI SEZIONE -->
     <div id="container">
-      <div id="what"><span>WHAT PEOPLE SAY</span></div>
-      <div id="title"><h2>Reviews</h2></div>
+      <div id="what"><span>TALES FROM THE BARBER SHOP</span></div>
+      <div id="title"><h2>Recent Blog Posts</h2></div>
     </div>
 
     <div id="reviews-box">
       <!-- CARD -->
       <div class="card">
         <!-- IMMAGINE CARD -->
-        <div class="card-img">IMG</div>
+        <div class="card-img"><img src="../../assets/img/img-main/negozio-colorato.jpg" alt=""></div>
         <!-- TITOLO CARD -->
-        <div class="card-title">Titolo</div>
+        <div class="card-title"><strong>Avada Barbers Now Open</strong></div>
         <!-- TESTO CARTA -->
         <div class="card-text">
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla ex quod ullam adipisci suscipit repudiandae? Eaque voluptatem nesciunt voluptatibus, veritatis corporis ipsum amet voluptatum quidem, deleniti illum optio consectetur!</span>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,</span>
         </div>
       </div>
 
       <!-- CARD -->
       <div class="card">
         <!-- IMMAGINE CARD -->
-        <div class="card-img">IMG</div>
+        <div class="card-img"><img src="../../assets/img/img-main/sedia.jpg" alt=""></div>
         <!-- TITOLO CARD -->
-        <div class="card-title">Titolo</div>
+        <div class="card-title"><strong>Choosing The Right Barber</strong></div>
         <!-- TESTO CARTA -->
         <div class="card-text">
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla ex quod ullam adipisci suscipit repudiandae? Eaque voluptatem nesciunt voluptatibus, veritatis corporis ipsum amet voluptatum quidem, deleniti illum optio consectetur!</span>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,</span>
         </div>
       </div>
 
       <!-- CARD -->
       <div class="card">
         <!-- IMMAGINE CARD -->
-        <div class="card-img">IMG</div>
+        <div class="card-img"><img src="../../assets/img/img-main/taglio.jpg" alt=""></div>
         <!-- TITOLO CARD -->
-        <div class="card-title">Titolo</div>
+        <div class="card-title"><strong>Quick Service Guide</strong></div>
         <!-- TESTO CARTA -->
         <div class="card-text">
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla ex quod ullam adipisci suscipit repudiandae? Eaque voluptatem nesciunt voluptatibus, veritatis corporis ipsum amet voluptatum quidem, deleniti illum optio consectetur!</span>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,</span>
         </div>
       </div>
     </div>
@@ -60,27 +60,30 @@ name:'blog'
 </template>
 <style lang="scss" scoped>
   #main-wrapper{
-    height: 500px;
     width: 100%;
-    background-color: lightgray;
+    background-color: whitesmoke;
   }#svg{
-    background-color: aqua;
-    height: 50px;
+    margin-bottom: 70px;
+  }svg{
+    transform: rotate(180deg);
   }#container{
     display: flex;
     flex-direction:column ;
     justify-content: center;
     align-items: center;
-  } 
+  }#what{
+    color: #be9359;
+  }#title{
+    color: #b0b0b0;
+    font-size: xxx-large;
+  }
 
   #reviews-box{
-    height: 200px;
     width: 100%;
-    background-color: green ;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 0px 200px;
+    margin-top: 40px;
   }.card{
     width: calc(100% / 3);
     height: 100%;
@@ -88,18 +91,32 @@ name:'blog'
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0px 15px;
+  }.card-img img{
+    width: 100%;
+  }.card-title{
+    color: #be9359;
+    font-size: xx-large;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px 0px;
+  }.card-text{
+    color: gray;
+    text-align: center;
+    padding: 0px 18px;
   }
 
   #read-container{
-    height: 100px;
-    background-color: burlywood;
     display: flex;
     justify-content: center;
+    cursor: pointer;
   }#read{
-    height: 100%;
-    background-color: red;
+    border: solid 2px #be9359 ;
     display: flex;
     align-items: center;
+    color: #be9359;
+    padding: 10px 46px;
+    margin: 50px 0px;
   }
 
 </style>
