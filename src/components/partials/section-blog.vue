@@ -94,7 +94,7 @@ name:'blog'
     padding: 0px 15px;
   }.card-img img{
     width: 100%;
-    transition: transform .2s;
+    transition: transform .5s;
     cursor: pointer;
   }
   
