@@ -17,23 +17,23 @@ export default {
       <div id="reviews-box">
         <!-- CARD -->
         <div class="card">
-          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos possimus amet modi optio sapiente distinctio, quasi tempora nam! Voluptates, quo! Amet aliquam numquam, ipsam accusamus dolore alias ipsum voluptatibus commodi.</div>
-          <div class="card-img">Immagine</div>
-          <div class="card-name"><span>15$</span></div>
+          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
+          <div class="card-img"><img src="../../assets/img/img-main/ragazzo1.jpg"></div>
+          <div class="card-name"><span>John Doe</span></div>
         </div>
 
                 <!-- CARD -->
                 <div class="card">
-          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos possimus amet modi optio sapiente distinctio, quasi tempora nam! Voluptates, quo! Amet aliquam numquam, ipsam accusamus dolore alias ipsum voluptatibus commodi.</div>
-          <div class="card-img">Immagine</div>
-          <div class="card-name"><span>15$</span></div>
+          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
+          <div class="card-img"><img src="../../assets/img/img-main/ragazzo2.jpg"></div>
+          <div class="card-name"><span>Pete Jones</span></div>
         </div>
 
                 <!-- CARD -->
         <div class="card">
-          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos possimus amet modi optio sapiente distinctio, quasi tempora nam! Voluptates, quo! Amet aliquam numquam, ipsam accusamus dolore alias ipsum voluptatibus commodi.</div>
-          <div class="card-img">Immagine</div>
-          <div class="card-name"><span>15$</span></div>
+          <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
+          <div class="card-img"><img src="../../assets/img/img-main/ragazzo3.jpg"></div>
+          <div class="card-name"><span>Mark Wilson</span></div>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ export default {
   #main-wrapper{
     background-color: cornflowerblue;
     width: 100%;
-    display: flex;
+    display: flex;  
     justify-content: center;
   }#main-container{
     margin-top:400px ;
@@ -55,10 +55,13 @@ export default {
     flex-direction:column ;
     justify-content: center;
     align-items: center;
+  }#what{
+    color: #be9359;
+  }#title{
+    color: #b0b0b0;
   }
 
   #reviews-box{
-    height: 200px;
     width: 100%;
     background-color: yellow ;
     display: flex;
@@ -72,5 +75,14 @@ export default {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }.card-text{
+    text-align: center;
+  }.card-img{
+    width: 86px;    
+  }img{
+    width: 100%;
+    border-radius: 50%;
+  }.card-text{
+    color: gray;
   }
 </style>
