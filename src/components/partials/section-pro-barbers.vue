@@ -48,6 +48,7 @@ export default {
     padding: 15px 50px;
     font-size: x-large;
     margin-top: 30px;
+    cursor: pointer;
   }
 
 #svg-container{

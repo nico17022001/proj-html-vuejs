@@ -131,6 +131,7 @@ export default {
     margin: 70px 0px 140px 0px;
     color: #be9359;
     padding: 15px 60px;
+    cursor: pointer;
   }#shop{
     display: flex;
     align-items: center;

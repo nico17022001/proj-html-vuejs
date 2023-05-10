@@ -121,6 +121,7 @@ export default {
     align-items: center;
     padding: 20px 50px;
     margin-bottom: 90px;
+    cursor: pointer;
   }
 
   #svg-container{
