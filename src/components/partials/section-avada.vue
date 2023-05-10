@@ -59,12 +59,12 @@ export default {
         <!-- LATO DESTRO SEZIONE -->
         <div id="section-info-container">
           <!-- SCRITTA GIALLA -->
-          <div id="this-month"><span>THIS MONTH</span></div>
+          <div id="this-month"><span>THIS MONTHS FEATURED PRODUCT</span></div>
           <!-- TITOLO SEZIONE -->
           <div id="section-title"><h2>Shaving Butter</h2></div>
           <!-- TESTO SEZIONE -->
           <div id="section-text">
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt iste, aliquid molestias, nulla</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet enim est, vel molestie dolor ultrices ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
           </div>
           <!-- BOTTONE SEZIONE -->
           <div id="buy-now">
@@ -148,6 +148,7 @@ export default {
     position: absolute;
     bottom: -345px;
     display: flex;
+    border-top: 5px solid #be9359;
   }#section-img-container{
     width: 35%;
     height: 100%;
@@ -160,8 +161,29 @@ export default {
   }#section-info-container{
     width: 65%;
     height: 100%;
-    background-color: chartreuse;
-    padding: 40px;
+    background-color: black;
+    padding: 80px;
+  }#this-month{
+    color: #be9359;
+    font-size: large;
+  }#section-title{
+    color: #b0b0b0;
+    font-size: xxx-large;
+  }#section-text{
+    color: #9f9f9f;
+    font-size: large;
+    width: 533px;
+    margin-top: 30px;
+  }#buy-now{
+    color: #be9359;
+    border: solid 2px #be9359;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    cursor: pointer;
   }
 
 </style>
