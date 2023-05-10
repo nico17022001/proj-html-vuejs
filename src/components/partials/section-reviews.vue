@@ -19,21 +19,21 @@ export default {
         <div class="card">
           <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
           <div class="card-img"><img src="../../assets/img/img-main/ragazzo1.jpg"></div>
-          <div class="card-name"><span>John Doe</span></div>
+          <div class="card-name"><span><strong>John Doe</strong></span></div>
         </div>
 
                 <!-- CARD -->
                 <div class="card">
           <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
           <div class="card-img"><img src="../../assets/img/img-main/ragazzo2.jpg"></div>
-          <div class="card-name"><span>Pete Jones</span></div>
+          <div class="card-name"><span><strong>Pete Jones</strong></span></div>
         </div>
 
                 <!-- CARD -->
         <div class="card">
           <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.</div>
           <div class="card-img"><img src="../../assets/img/img-main/ragazzo3.jpg"></div>
-          <div class="card-name"><span>Mark Wilson</span></div>
+          <div class="card-name"><span><strong>Mark Wilson</strong></span></div>
         </div>
       </div>
     </div>
@@ -42,13 +42,11 @@ export default {
 
 <style lang="scss" scoped>
   #main-wrapper{
-    background-color: cornflowerblue;
     width: 100%;
     display: flex;  
     justify-content: center;
   }#main-container{
     margin-top:400px ;
-    background-color: bisque;
     width: 80%;
   }#container{
     display: flex;
@@ -59,15 +57,15 @@ export default {
     color: #be9359;
   }#title{
     color: #b0b0b0;
+    font-size: xxx-large;
   }
 
   #reviews-box{
     width: 100%;
-    background-color: yellow ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 200px;
+    margin-top: 30px;
   }.card{
     width: calc(100% / 3);
     height: 100%;
@@ -77,6 +75,9 @@ export default {
     flex-direction: column;
   }.card-text{
     text-align: center;
+    font-size: large;
+    padding: 0px 74px;
+    margin-bottom: 20px;
   }.card-img{
     width: 86px;    
   }img{
@@ -84,5 +85,9 @@ export default {
     border-radius: 50%;
   }.card-text{
     color: gray;
+  }.card-name{
+    margin-top: 10px;
+    color: #be9359;
+    font-style: italic;
   }
 </style>
