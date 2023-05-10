@@ -94,7 +94,14 @@ name:'blog'
     padding: 0px 15px;
   }.card-img img{
     width: 100%;
-  }.card-title{
+    transition: transform .2s;
+    cursor: pointer;
+  }
+  
+  .card-img img:hover{
+    transform: scale(1.04);
+  }
+  .card-title{
     color: #be9359;
     font-size: xx-large;
     text-align: center;

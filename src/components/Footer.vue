@@ -118,7 +118,7 @@ export default {
   }
 
   #social-container i:hover{
-    color: white;
+    color: rgba(128, 128, 128, 0.715);
   }
 
   #info-main .gray:hover{
