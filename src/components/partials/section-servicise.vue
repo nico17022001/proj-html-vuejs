@@ -85,7 +85,6 @@ export default {
   #service-box{
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 0px 200px;
     margin-top: 70px;
