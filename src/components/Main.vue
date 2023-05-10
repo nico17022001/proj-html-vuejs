@@ -28,7 +28,7 @@ export default {
         <div class="svg">
           <div>
           <i class="fa-solid fa-image disappear"></i>
-          <!-- <i class="fa-solid fa-image appear"></i> -->
+          <i class="fa-solid fa-image appear"></i>
           </div>
           <div class="svg-name">Prebuilts</div>
         </div>
@@ -37,7 +37,7 @@ export default {
         <div class="svg">
           <div>
             <i class="fa-solid fa-cart-shopping disappear"></i>
-            <!-- <i class="fa-solid fa-cart-shopping appear"></i> -->
+            <i class="fa-solid fa-cart-shopping appear"></i>
           </div>
           <div class="svg-name">Buy Now</div>
         </div>
@@ -60,18 +60,18 @@ export default {
     height: 200px;
     position: fixed;
     right: 12px;
-    top: 200px;
+    top: 160px;
     z-index: 10;    
   }.square{
     background-color: white;
     width: 100%;
     height: 66px;
-    border: solid 1px black;
     margin-bottom: 10px;
     border-radius:6px ;
     overflow: hidden;
     color: #33475b;
     cursor: pointer;
+    
     
   }.svg{
     width: 100%;
@@ -86,30 +86,59 @@ export default {
   }.appear{
     position: absolute;
     right: -29px;
-    transition: all 1s;
   }.svg-name{
     font-size: small;
     margin-top: 4px;
-    transition: all 1s;
   }
 
-  // TENTATO METTERE ANIMAZOIONE MA CREA CONFLITTO CON SCSS
+  
 
-  // .square:hover{
-  //   .disappear{
-  //     position: absolute;
-  //     left: -29px;
-  //   }
+  .square:hover{
+    .disappear{
+      position: absolute;
+      left: -29px;
+      animation: moveLeft .2s linear;
+    }
 
-  //   .appear{
-  //     left: 20px;
-  //     top: 10px
-  //   }
+    .appear{
+      left: 21px;
+      top: 11px;
+      animation: moveRight .2s linear;
+    }
 
-  //   .svg-name{
-  //     position: absolute;
-  //     bottom: 10.5px;
-  //   }
-    
-  // }
+    .svg-name{
+      position: absolute;
+      bottom: 10.6px;
+    }
+  }
+
+  @keyframes moveLeft{
+    0% {
+    left: 21px;
+    top: 11px
+    }
+    50% {
+      left: -20px;
+      top: 11px
+    }
+    100% {
+      left: -29px;
+      top: 11px
+    }
+  }
+
+  @keyframes moveRight{
+    0% {
+      left: 80px;
+      top: 11px;
+    }
+    50% {
+      left: 50px;
+      top: 11px;
+    }
+    100% {
+      left: 21px;
+      top: 11px;
+    }
+  }
 </style>

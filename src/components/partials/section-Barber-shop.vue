@@ -71,7 +71,7 @@ export default {
     width: 650px;
     height: 100%;
     background-size:contain;
-    background-position:right ;
+    background-position:center ;
     background-repeat:no-repeat ; 
   }
 </style>
