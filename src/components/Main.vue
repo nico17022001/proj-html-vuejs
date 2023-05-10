@@ -71,6 +71,7 @@ export default {
     overflow: hidden;
     color: #33475b;
     cursor: pointer;
+    box-shadow: 0 -5px 20px 5px rgba(0, 0, 0, 0.216);
     
     
   }.svg{
